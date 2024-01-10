@@ -1,0 +1,14 @@
+.ItemDetail {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__info {
+        text-align: center;
+    }
+    &__img{
+        border-radius: 5%;
+    }
+}

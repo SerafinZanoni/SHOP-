@@ -3,20 +3,20 @@ import ItemCount from "../ItemCount/ItemCount";
 
 const ItemDetail = ({  name, img, category, description, price, stock }) => {
   return (
-    <article className="CardItem">
-      <header className="Header">
-        <h2 className="ItemHeader">{name}</h2>
+    <article className="ItemDetail">
+      <header>
+        <h2 className="ItemHeader__header">{name}</h2>
       </header>
       <picture>
-        <img src={img} alt={name} className="ItemImg" />
+        <img src={img} alt={name} className="ItemDetail__img" />
       </picture>
-      <section>
-        <p className="Info">Categoria: {category}</p>
-        <p className="Info">Descripcion: {description}</p>
-        <p className="Info">Precio: {price}</p>
+      <section className="ItemDetail__info">
+        <p className="ItemDetail__info">Categoria: {category}</p>
+        <p className="ItemDetail__info">Descripcion: {description}</p>
+        <p className="ItemDetail__info">Precio: {price}</p>
         
       </section>
-      <footer className="ItemFooter">
+      <footer className="ItemDetail__footer">
       <ItemCount initial={1} stock={stock} onAdd={(quantity) => console.log('Cantidad agrgada: ',quantity)}/>
       </footer>
     </article>

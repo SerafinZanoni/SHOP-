@@ -1,5 +1,4 @@
 .item {
-    
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,8 +15,27 @@
     box-shadow: 15px -10px rgba(0, 0, 0, 0.351);
   }
   &__price {
-    font-size: 1rem;
-    color: black;
-    font-weight: 600;
+    font-size: 1.7rem;
+   
+  }
+  &__link {
+    text-decoration: none;
+    color: #1d1d1d;
+    color: var(--form-text);
+    background-color: #efefef;
+    background-color: var(--background);
+    font-family: inherit;
+    font-size: inherit;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+  }
+  &__link:hover {
+    text-decoration: none;
+    background: #9b9b9b;
+    background: var(--button-hover);
   }
 }

@@ -9,6 +9,10 @@
     text-align: center;
     align-items: center;
     font-size: 2.5rem;
+    text-decoration: none;
+  }
+  &__title:hover {
+    text-decoration: none;
   }
 
   &__buttons {
@@ -18,5 +22,35 @@
     justify-content: space-evenly;
     align-items: center;
     gap: 15px;
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #1d1d1d;
+    color: var(--form-text);
+    background-color: #efefef;
+    background-color: var(--background);
+    font-family: inherit;
+    font-size: inherit;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+  }
+  &__link:hover {
+    text-decoration: none;
+    background: #9b9b9b;
+    background: var(--button-hover);
   }
 }
