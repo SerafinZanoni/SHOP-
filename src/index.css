@@ -3,6 +3,15 @@
  * Uses light theme by default but switches to dark theme
  * if a system-wide theme preference is set on the user's device.
  */
+ /* #root {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+ } */
+
+
 
  :root {
   --background-body: #fff;
@@ -110,7 +119,8 @@ html {
 
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif;
-  height: 100vh;
+  min-width: 320px;
+  min-height: 100vh;
   width: 100%;
   margin: 20px auto;
   padding: 0 10px;

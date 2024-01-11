@@ -14,7 +14,7 @@ const products = [
     name: "Iphone 15",
     price: 1500,
     category: "celulars",
-    img: "https://http2.mlstatic.com/D_NQ_NP_2X_779617-MLA71782867320_092023-F.webp",
+    img: "https://www.att.com/scmsassets/global/devices/phones/apple/apple-iphone-15-pro-max/gallery/white-titanium-1.jpg",
     stock: 15,
     description:
       "El iPhone 15 viene con la Dynamic Island, cámara gran angular de 48 MP, entrada USB-C y un resistente vidrio con infusión de color en un diseño de aluminio.",
