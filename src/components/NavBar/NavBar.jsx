@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <nav className="navbar">
       <Link to='/' className="navbar__title">
-      <h1 className="navbar__title">E-commerce</h1>
+      <h1 className="navbar__title"> 🛒 React Shop</h1>
       </Link>
       
       <div className="navbar__links">

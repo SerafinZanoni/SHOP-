@@ -1,16 +1,45 @@
 .ItemDetail {
-   
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__info {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    &__info {
-        text-align: center;
-    }
-    &__img{
-        border-radius: 5%;
-        max-width: 600px;
-        max-height: 500px;
-    }
+    text-align: center;
+    
+  }
+  &__img {
+    border-radius: 5%;
+    max-width: 200px;
+    max-height: 250px;
+  }
+  &__footer {
+    text-align: center;
+  }
+  &__link {
+    text-decoration: none;
+    color: #1d1d1d;
+    color: var(--form-text);
+    background-color: #efefef;
+    background-color: var(--background);
+    font-family: inherit;
+    font-size: inherit;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+  }
+  &__link:hover {
+    text-decoration: none;
+    background: #9b9b9b;
+    background: var(--button-hover);
+  }
 }
+
+

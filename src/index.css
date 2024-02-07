@@ -3,13 +3,12 @@
  * Uses light theme by default but switches to dark theme
  * if a system-wide theme preference is set on the user's device.
  */
- /* #root {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 2rem;
+  #root {
+  max-width: 900px;
+  margin: 10px ;
   text-align: center;
   width: 100%;
- } */
+ } 
 
 
 
@@ -120,7 +119,8 @@ html {
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif;
   min-width: 320px;
-  min-height: 100vh;
+  max-width: 900px;
+  height: 100vh;
   width: 100%;
   margin: 20px auto;
   padding: 0 10px;
@@ -130,6 +130,9 @@ body {
   background: #fff;
   background: var(--background-body);
   text-rendering: optimizeLegibility;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -741,7 +744,7 @@ button,
 
 
 textarea {
-  display: block;
+  
   margin-right: 0;
   box-sizing: border-box;
   resize: vertical;
@@ -1134,7 +1137,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 code {
@@ -1692,6 +1695,6 @@ body > footer {
 
   a {
     color: #00f;
-    text-decoration: underline;
+    text-decoration: none;
   }
 }

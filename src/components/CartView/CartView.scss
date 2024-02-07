@@ -1,0 +1,89 @@
+.cartView {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+
+}
+
+
+
+
+
+.cartProducts {
+  text-align: center;
+
+  &__checkout {
+    text-decoration: none;
+    color: #1d1d1d;
+    color: var(--form-text);
+    background-color: #efefef;
+    background-color: var(--background);
+    font-family: inherit;
+    font-size: inherit;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+  }
+  &__checkout:hover {
+    text-decoration: none;
+    background: #9b9b9b;
+    background: var(--button-hover);
+  }
+
+  &__card{
+    display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  width: 100%;
+
+  }
+  &__total {
+    margin-bottom: 30px;
+  }
+  &__cardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    
+  }
+  &__cardTittle{
+    
+  }
+}
+
+
+
+.noProducts {
+  text-align: center;
+
+  &__tittle {
+    margin-bottom: 30px;
+  }
+  
+
+  &__link {
+    text-decoration: none;
+    color: #1d1d1d;
+    color: var(--form-text);
+    background-color: #efefef;
+    background-color: var(--background);
+    font-family: inherit;
+    font-size: inherit;
+    margin-right: 6px;
+    
+    margin-bottom: 6px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+  }
+  &__link:hover {
+    text-decoration: none;
+    background: #9b9b9b;
+    background: var(--button-hover);
+  }
+}

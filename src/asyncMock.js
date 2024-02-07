@@ -5,7 +5,7 @@ const products = [
     price: 1000,
     category: "celulars",
     img: "https://www.macstation.com.ar/img/productos/3119-2.jpg",
-    stock: 25,
+    stock: 14,
     description:
       "El iPhone 14 viene con el sistema de dos cámaras más impresionante en un iPhone, para que tomes fotos espectaculares con mucha o poca luz. Y te da más tranquilidad gracias a una funcionalidad de seguridad que salva vidas.",
   },
@@ -25,7 +25,7 @@ const products = [
     price: 2000,
     category: "tablets",
     img: "https://http2.mlstatic.com/D_NQ_NP_2X_883063-MLA72121884357_102023-F.webp",
-    stock: 10,
+    stock: 9,
     description:
       "Lleno de potencia, muy fácil de usar y versátil. El nuevo iPad viene con una espectacular pantalla Retina de 10.2 pulgadas, el potente chip A13 Bionic y una cámara frontal ultra gran angular con Encuadre Centrado. Además, es compatible con el Apple Pencil y el Smart Keyboard.",
   },
@@ -35,7 +35,7 @@ const products = [
     price: 5000,
     category: "notebooks",
     img: "https://http2.mlstatic.com/D_NQ_NP_2X_684862-MLA46516504419_062021-F.webp",
-    stock: 10,
+    stock: 5,
     description:
       "La notebook más delgada y ligera de Apple viene con los superpoderes del chip M1. Termina todos tus proyectos mucho más rápido con el CPU de 8 núcleos y disfruta como nunca antes de apps y juegos con gráficos avanzados gracias al GPU de hasta 8 núcleos. Además, el Neural Engine de 16 núcleos se encarga de acelerar todos los procesos de aprendizaje automático.",
   },
