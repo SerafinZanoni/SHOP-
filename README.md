@@ -43,9 +43,7 @@ VITE_authDomain=e-commerce-57035.firebaseapp.com
 VITE_projectId=e-commerce-57035
 VITE_storageBucket=e-commerce-57035.appspot.com
 VITE_messagingSenderId=22240799163
-VITE_appId=1:22240799163:web:a9422bacd637c25abf3c9e
-
- 
+VITE_appId=1:22240799163:web:a9422bacd637c25abf3c9e 
     ```
 
 4. Inicia el servidor backend utilizando el siguiente comando:
