@@ -4,7 +4,7 @@ const products = [
     name: "Iphone 14",
     price: 1000,
     category: "celulars",
-    img: "https://www.macstation.com.ar/img/productos/3119-2.jpg",
+    img: "https://www.sagitariodigital.com.ar/producto/iphone-14/",
     stock: 14,
     description:
       "El iPhone 14 viene con el sistema de dos cámaras más impresionante en un iPhone, para que tomes fotos espectaculares con mucha o poca luz. Y te da más tranquilidad gracias a una funcionalidad de seguridad que salva vidas.",
@@ -48,7 +48,6 @@ export const getProducts = () => {
     }, 1000);
   });
 };
-
 
 export const getProductById = (productId) => {
   return new Promise((resolve) => {

@@ -1,43 +1,86 @@
-.item {
+.item__container {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 40px;
-  margin-bottom: 20px;
-  
+  justify-content: space-between;
+  gap: 15px;
+  width: 100%;
+  max-width: 300px;
+  padding: 20px;
+  background: var(--background);
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px var(--shadow-color);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 
-  &__title {
-    font-size: 1.7rem;
-    width: 400px;
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
   }
-  &__img {
-    width: 200px;
-    height: 200px;
-    border-radius: 15%;
-    box-shadow: 15px -10px rgba(0, 0, 0, 0.351);
+}
+
+.item__title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.item__img {
+  width: 100%;
+  max-width: 220px;
+  height: 220px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 5px 5px 10px var(--shadow-color);
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
   }
-  &__price {
-    font-size: 1.7rem;
+}
+
+.item__price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: gray-dark;
+}
+
+.item__link {
+  display: inline-block;
+  width: 180px;
+  text-align: center;
+  padding: 10px 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--primary-color);
+  background: var(--primary-color);
+  border-radius: 6px;
+  transition: background 0.3s ease, transform 0.2s ease;
+
+  &:hover {
+    background: var(--primary-hover);
+    transform: scale(1.05);
   }
-  &__link {
-    width: 200px;
-    text-decoration: none;
-    color: #1d1d1d;
-    color: var(--form-text);
-    background-color: #efefef;
-    background-color: var(--background);
-    font-family: inherit;
-    font-size: inherit;
-    margin-right: 6px;
-    margin-bottom: 6px;
-    padding: 10px;
-    border: none;
-    border-radius: 6px;
-    outline: none;
+}
+
+/* 🔹 Responsividad para pantallas pequeñas */
+@media (max-width: 400px) {
+  .item__container {
+    max-width: 100%;
+    padding: 15px;
   }
-  &__link:hover {
-    text-decoration: none;
-    background: #9b9b9b;
-    background: var(--button-hover);
+
+  .item__title {
+    font-size: 1.2rem;
+  }
+
+  .item__img {
+    max-width: 180px;
+    height: 180px;
+  }
+
+  .item__link {
+    width: 100%;
   }
 }

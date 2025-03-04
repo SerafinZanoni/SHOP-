@@ -1,13 +1,12 @@
 .navbar {
   width: 800px;
-  height: 20vh;
+  height: 15vh;
   display: flex;
   gap: 50px;
   align-items: center;
   justify-content: center;
 
   &__title {
-  
     margin-right: 25px;
     display: flex;
     text-align: center;
@@ -39,14 +38,13 @@
 
   &__link {
     text-decoration: none;
-    color: #1d1d1d;
     color: var(--form-text);
     background-color: #efefef;
     background-color: var(--background);
     font-family: inherit;
     font-size: inherit;
     margin-right: 6px;
-    margin-bottom: 6px;
+
     padding: 10px;
     border: none;
     border-radius: 6px;
@@ -54,7 +52,6 @@
   }
   &__link:hover {
     text-decoration: none;
-    background: #9b9b9b;
     background: var(--button-hover);
   }
 }

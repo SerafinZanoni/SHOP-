@@ -6,10 +6,12 @@ import { Link } from "react-router-dom";
 const CartWidget = () => {
   const { totalQuantity } = useCart();
 
+  if (totalQuantity === 0) return null; // No mostrar si el carrito está vacío
+
   return (
-    <Link to="/cart" className="cart" style={{display: totalQuantity > 0 ? 'block' : 'none'}}>
-      <img src={cart} />
-      <span className="widgetTotal">{totalQuantity}</span>
+    <Link to="/cart" className="cart">
+      <img src={cart} alt="Carrito" className="cart__img" />
+      <span className="cart__total">{totalQuantity}</span>
     </Link>
   );
 };

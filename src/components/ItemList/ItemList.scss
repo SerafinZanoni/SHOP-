@@ -1,8 +1,17 @@
 .items {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   gap: 10px;
-   
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
+/* 🔹 Adaptación para pantallas pequeñas */
+@media (max-width: 768px) {
+  .items {
+    flex-direction: column;
+    align-items: center;
+  }
 }

@@ -1,8 +1,12 @@
+/* ItemDetail.scss */
 .ItemDetail {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  max-width: 900px; /* Ajusta el ancho máximo según necesites */
+  margin: 0 auto; /* Centra el contenedor */
 
   &__info {
     display: flex;
@@ -10,12 +14,13 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    
   }
   &__img {
     border-radius: 5%;
-    max-width: 200px;
-    max-height: 250px;
+    width: auto; /* Mantiene el ancho original de la imagen */
+    max-width: 100%; /* Que no supere el ancho del contenedor */
+    height: auto; /* Mantiene la proporción sin cortar */
+    object-fit: contain; /* Evita que la imagen se corte */
   }
   &__footer {
     text-align: center;
@@ -24,7 +29,6 @@
     text-decoration: none;
     color: #1d1d1d;
     color: var(--form-text);
-    background-color: #efefef;
     background-color: var(--background);
     font-family: inherit;
     font-size: inherit;
@@ -37,9 +41,6 @@
   }
   &__link:hover {
     text-decoration: none;
-    background: #9b9b9b;
     background: var(--button-hover);
   }
 }
-
-
