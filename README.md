@@ -1,6 +1,6 @@
 
 
-# E-commerce con React y Vite para Coderhouse
+# E-commerce con React y Vite
 
 Este es un proyecto de comercio electrónico desarrollado con React y Vite, una herramienta para crear aplicaciones web modernas de manera rápida y eficiente.
 
@@ -17,13 +17,22 @@ Este es un proyecto de comercio electrónico desarrollado con React y Vite, una 
 
 - Vite
 - React.js
+- Sass
 - Water.css
-- Node.js
+- Firebase
 
 
 ## Github 
 
-https://github.com/SerafinZanoni/REACTjs49945
+https://github.com/SerafinZanoni/SHOP-
+
+- ### **Imagenes**
+
+![Home](public/H.png)
+![Detail](public/PD.png)
+![Cart](public/C.png)
+
+
 
 ## Instalación y Configuración
 
